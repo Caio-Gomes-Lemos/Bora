@@ -1,8 +1,8 @@
 import React from "react";
 import { StyleSheet } from "react-native";
 
-const styles = StyleSheet.create ({
-    container:{
+const styles = StyleSheet.create({
+    container: {
         alignItems: 'center',
         width: '90%',
         marginTop: 0,
@@ -10,11 +10,11 @@ const styles = StyleSheet.create ({
         flex: 1
 
     },
-    Mensagens:{
-        marginTop: 10,
-        paddingBottom:10,
-        fontSize:25,
-        textAlign:'center',
+    Mensagens: {
+        marginTop: '50%',
+        padding: 50,
+        fontSize: 25,
+        textAlign: 'center',
         color: 'green'
     },
 });
