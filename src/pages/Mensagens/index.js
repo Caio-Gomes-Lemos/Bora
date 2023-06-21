@@ -1,11 +1,14 @@
 import React from 'react'
-import { View, Text } from 'react-native'
+import { View, Text, SafeAreaView } from 'react-native'
+import styles from './styles.js';
 
 export default function Mensagens() {
     return (
-        <View>
-            <Text> Mensagens</Text>
-        </View>
+        <SafeAreaView style={styles.container}>
+            <View>
+                <Text style={styles.Mensagens}> Em desenvolvimento...</Text>
+            </View>
+        </SafeAreaView>
     )
 }
 

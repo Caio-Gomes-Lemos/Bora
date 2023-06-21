@@ -21,6 +21,12 @@ export default function Sports() {
               style={styles.imgSports}
               source={require('../../img/muscle.jpg')} />
       </TouchableOpacity>
+
+      <TouchableOpacity style={styles.container}>
+          <Image
+              style={styles.imgSports}
+              source={require('../../img/ciclismo.jpg')} />
+      </TouchableOpacity>
       </>
     
   );
