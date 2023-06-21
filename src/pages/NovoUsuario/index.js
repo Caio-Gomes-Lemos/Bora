@@ -35,11 +35,15 @@ export default function NovoUsuario({ navigation, user }) {
                 setErrorLogin(true)
                 let errorCode = error.code;
                 let errorMassage = error.message;
+
                 if (errorCode == "auth/email-already-in-use") {
                     alert('Email ja esta em uso')
                 }
                 else if (errorCode == "auth/invalid-email") {
-                    alert('Email ou senha invalidos')
+                    alert('Email ou senha inválidos')
+
+                } else if (errorCode == "auth/weak-password") {
+                    alert('Digite uma senha válida')
                 }
             });
     }

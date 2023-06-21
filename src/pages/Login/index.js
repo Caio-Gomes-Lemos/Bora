@@ -39,9 +39,20 @@ export default function Login({ navigation }) {
                 let errorCode = error.code;
                 let errorMassage = error.message;
 
+
                 if (errorCode === "auth/wrong-password") {
                     alert('Email ou senha incorretos')
                 }
+
+                if (errorCode === "auth/user-not-found") {
+                    alert('Email inexistente')
+                }
+                if (errorCode === "auth/invalid-email") {
+                    alert('Digite um email válido')
+                }
+
+
+
             });
     };
     async function sair() {

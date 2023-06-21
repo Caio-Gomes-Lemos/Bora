@@ -33,7 +33,7 @@ export default function CriarPerfil({ navigation }) {
             addDoc(
                 collection(db, 'usuarios/' + a + '/Perfil'), { nome: nome, sobreNome: sobreNome, idade: idade, cidade: cidade }
             ).then(
-                alert('Alterado com sucesso'),
+                alert('Perfil criado com sucesso'),
                 navigation.navigate("Home")
             ).catch((error) => {
                 setErrorLogin(true)
