@@ -7,6 +7,7 @@ import NovoUsuario from './src/pages/NovoUsuario';
 import Home from './src/pages/Home';
 import Perfil from './src/pages/Perfil';
 import CriarPerfil from './src/pages/CriarPerfil';
+import Categorias from './src/pages/Categorias';
 
 import { createStackNavigator } from '@react-navigation/stack';
 import { NavigationContainer } from '@react-navigation/native';
